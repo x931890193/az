@@ -1,9 +1,6 @@
 
 pub fn print_az() {
-    for item in 'a'..='z' {
-        println!("{}", item);
-    }
-    for item in 'A'..='Z' {
+    for item in ('Z'..='a').rev().rev() {
         println!("{}", item);
     }
 }
